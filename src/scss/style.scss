@@ -52,5 +52,23 @@ body{
 }
 
 
+#authors{
+  a{
+    color: $primary-overlay;
+  }
+  img{
+    margin-top: -50px;
+  }
+  .fa{
+    font-size: 25px;
+  }
+  .card:hover{
+    background: lightblue;
+    color: black;
+    .fa{
+      color: white;
+    }
+  }
+}
 
 }

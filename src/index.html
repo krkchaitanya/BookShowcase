@@ -8,10 +8,12 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/book.png" />
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+  <!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
     <a href="index.html" class="navbar-brand">
       <img src="img/book.png" alt="bookimg" width="50" height="50">
@@ -22,20 +24,168 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarnav">
       <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#home" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#home" class="nav-link">Meet the Authors</a></li>
-        <li class="nav-item"><a href="#home" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#showcase" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#authors" class="nav-link">Meet the Authors</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </div>
   </div>  
 </nav>
+
+<!-- showcase   btn-outerline-info / text-wihte/ text-center / img-fuild-->
+
+<section class="py-5" id="showcase">
+  <div class="primary-overlay text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center">
+          <h1 class="display-2 mt-5 pt-5">Do what you dream of...</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error.</p>
+          <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+            <i class="fa fa-arrow-right"></i>ReadMore
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/poster.png"  width="250px" height="400px;" alt="" class="img-fuild d-none d-lg-block pt-5 mt-4 ml-5">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter  bd-dark / text-white-->
+
+<section id="newsletter" class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text"  class="form-control form-control-lg" placeholder="Enter Name">
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-lg " placeholder="Enter Email">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-outline-info btn-lg btn-block">
+          <i class="fa fa-envelope-open-o"></i> Subscibe
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Boxes -->
+
+<section class="py-5" id="boxes">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center border-info">
+            <h3 class="text-info">Be Better</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ea.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center border-info">
+            <h3 class="text-info">Be Smarter</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ea.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center border-info">
+              <h3 class="text-info">Be Faster</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ea.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+              <div class="card text-center border-info">
+                <h3 class="text-info">Be Harder</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ea.</p>
+              </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- About/ why section     card / accordian / info-header /card-header/ card-body-->
+<section class="py-5 text-center bg-light" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header">
+            <h1 class="text-info pb-3">
+                Why this Book?
+              </h1>
+              <p class="lead pb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis inventore culpa, nobis ut ipsam atque!
+              </p>
+        </div>
+        <!-- Accordian -->
+        <div id="accordian" role="tablist">
+          <div class="card">
+            <div class="card-header" id="heading1">
+              <h5 class="mb-0"> 
+                <div href="#collapse1" data-toggle="collapse" data-parent="#accordian">
+                  <i class="fa fa-arrow-circle-down"></i>Get Inspired
+                </div>
+              </h5>
+            </div>
+
+            <div id="collapse1" class="collapse show">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia voluptatum consectetur nobis quod possimus doloribus laudantium? Sapiente et amet, libero modi numquam reiciendis temporibus. Doloremque excepturi tempora minima exercitationem sequi consectetur eveniet, saepe, officia atque minus reprehenderit ullam modi quo quis assumenda quos impedit obcaecati expedita molestiae dolorem at.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+              <div class="card-header" id="heading2">
+                <h5 class="mb-0"> 
+                  <div href="#collapse2" data-toggle="collapse" data-parent="#accordian" >
+                    <i class="fa fa-arrow-circle-down"></i>Gain the Knowledge
+                  </div>
+                </h5>
+              </div>
+  
+              <div id="collapse2" class="collapse show">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia voluptatum consectetur nobis quod possimus doloribus laudantium? Sapiente et amet, libero modi numquam reiciendis temporibus. Doloremque excepturi tempora minima exercitationem sequi consectetur eveniet, saepe, officia atque minus reprehenderit ullam modi quo quis assumenda quos impedit obcaecati expedita molestiae dolorem at.
+                </div>
+              </div>
+            </div>
+
+            
+          <div class="card">
+              <div class="card-header" id="heading2">
+                <h5 class="mb-0"> 
+                  <div href="#collapse3" data-toggle="collapse" data-parent="#accordian" >
+                    <i class="fa fa-arrow-circle-down"></i>Open Your Mind
+                  </div>
+                </h5>
+              </div>
+  
+              <div id="collapse3" class="collapse show">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia voluptatum consectetur nobis quod possimus doloribus laudantium? Sapiente et amet, libero modi numquam reiciendis temporibus. Doloremque excepturi tempora minima exercitationem sequi consectetur eveniet, saepe, officia atque minus reprehenderit ullam modi quo quis assumenda quos impedit obcaecati expedita molestiae dolorem at.
+                </div>
+              </div>
+            </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <!-- smooth scrolling from navbar to the id element.....navbar-fixed.js......... -->
+  <!-- jquery-plugin-fixed bootstrap4 nav-smooth-scroll navbar -->
   <script src="js/navbar-fixed.js"></script>
 </body>
 </html>

@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>BookShowcase</title>
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="img/book.png" />
+  <link rel="stylesheet" href="src/css/font-awesome.min.css">
+  <link rel="stylesheet" href="src/css/bootstrap.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="shortcut icon" href="src/img/book.png" />
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
     <a href="index.html" class="navbar-brand">
-      <img src="img/book.png" alt="bookimg" width="50" height="50">
+      <img src="src/img/book.png" alt="bookimg" width="50" height="50">
       <h3 class="d-inline align-middle">MyBook</h3>
     </a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarnav">
@@ -47,7 +47,7 @@
           </a>
         </div>
         <div class="col-lg-6">
-          <img src="img/poster.png"  width="250px" height="400px;" alt="" class="img-fuild d-none d-lg-block pt-5 mt-4 ml-5">
+          <img src="src/img/poster.png"  width="250px" height="400px;" alt="" class="img-fuild d-none d-lg-block pt-5 mt-4 ml-5">
         </div>
       </div>
     </div>
@@ -194,9 +194,9 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-lg-3">
-        <div class="card ">
+        <div class="card pb-3">
           <div class="card-body">
-            <img src="img/author1.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
+            <img src="src/img/author1.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
             <h3>kevin sanson  </h3>
             <h5 class="text-muted">Lead Writer</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, enim quidem perferendis fugit quo explicabo!</p>
@@ -216,10 +216,10 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
-          <div class="card">
+          <div class="card pb-3">
               <div class="card-body">
-                <img src="img/author2.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
-                <h3>Suson Williams</h3>
+                <img src="src/img/author2.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
+                <h3>S Williams</h3>
                 <h5 class="text-muted">Editor</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, enim quidem perferendis fugit quo explicabo!</p>
                 <!--........... flex row........... -->
@@ -238,9 +238,9 @@
             </div>
       </div>
       <div class="col-md-6 col-lg-3">
-          <div class="card">
+          <div class="card pb-3">
               <div class="card-body">
-                <img src="img/author3.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
+                <img src="src/img/author3.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
                 <h3>John Doe</h3>
                 <h5 class="text-muted">Designer</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, enim quidem perferendis fugit quo explicabo!</p>
@@ -260,9 +260,9 @@
             </div>
       </div>
       <div class="col-md-6 col-lg-3">
-          <div class="card">
+          <div class="card pb-3">
               <div class="card-body">
-                <img src="img/author4.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
+                <img src="src/img/author4.jpeg"  alt="person1" class="img img-fuild rounded-circle w-50 h-50 mb-3">
                 <h3>Grace Smith</h3>
                 <h5 class="text-muted"> Analyst</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, enim quidem perferendis fugit quo explicabo!</p>
@@ -285,14 +285,51 @@
   </div>
 </section>
 
+<!-- contact section -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Get In Touch</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo!</p>
+        <form>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" class="form-control form-control" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+              <input type="email" class="form-control form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+              <textarea   rows="5" class="form-control" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="submit" class="btn btn-info btn-block">
+        </form>
+      </div>
+      <div class="col-lg-3 align-self-center">
+        <img src="src/img/book.png" alt="book" class="img-fluid img-responsive d-lg-block d-none" >
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+
+
+  <script src="src/js/jquery.min.js"></script>
+  <script src="src/js/popper.min.js"></script>
+  <script src="src/js/bootstrap.min.js"></script>
   <!-- smooth scrolling from navbar to the id element.....navbar-fixed.js......... -->
   <!-- jquery-plugin-fixed bootstrap4 nav-smooth-scroll navbar -->
-  <script src="js/navbar-fixed.js"></script>
+  <script src="src/js/navbar-fixed.js"></script>
 </body>
 </html>
